@@ -1,0 +1,7 @@
+<Physics>
+    <Composite name="default" type="standard" numBodies="1" numJoints="0" numMeshes="0">
+        <RigidBody name="pCube49Body" pos="0.000 0.000 0.000" rot="0.0000 0.0000 0.0000 1.0000" model="model/pCube49" numShapes="1">
+            <BoxShape pos="0.000 0.000 0.000" rot="0.0000 0.0000 0.0000 1.0000" size="1.243 0.860 1.814" mat="Wood" />
+        </RigidBody>
+    </Composite>
+</Physics>

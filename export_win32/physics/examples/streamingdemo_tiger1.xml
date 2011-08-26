@@ -1,0 +1,8 @@
+<Physics>
+    <Composite name="default" type="standard" numBodies="1" numJoints="0" numMeshes="0">
+        <RigidBody name="Body" pos="0.000 0.902 0.000" rot="0.0000 0.0000 0.0000 1.0000" numShapes="2">
+            <BoxShape pos="0.000 0.545 0.461" rot="0.0000 0.0000 0.0000 1.0000" size="3.519 2.961 6.860" mat="Wood" />
+            <BoxShape pos="0.000 1.188 4.734" rot="0.0000 0.0000 0.0000 1.0000" size="0.509 0.555 1.712" mat="Wood" />
+        </RigidBody>
+    </Composite>
+</Physics>

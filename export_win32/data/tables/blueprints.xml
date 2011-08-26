@@ -1,0 +1,47 @@
+<!-- an automatic entity with optional static mesh collision or passive physics -->
+<BluePrints>
+    <!-- a light entity -->
+    <Entity type="Light" cppclass="Entity">
+        <Property type="BaseGameFeature::TimeProperty"/>
+        <Property type="GraphicsFeature::LightProperty"/>
+    </Entity>
+
+    <!-- remote controlled camera for level editor -->
+    <Entity type="RemoteCamera" cppclass="Entity">
+    </Entity>
+
+    <!-- a camera entity with like maya input -->
+    <Entity type="Camera" cppclass="Entity">  
+        <Property type="GraphicsFeature::MayaCameraProperty"/> 
+        <Property type="GraphicsFeature::InputProperty" />      
+    </Entity> 
+    
+    <!-- a simple entity -->
+    <Entity type="Simple" cppclass="Entity">
+        <Property type="GraphicsFeature::GraphicsProperty"/>
+		<!--<Property type="PhysicsFeature::PhysicsProperty"/>-->
+		<!--Property type="PhysicsFeature::MouseGripperProperty"/-->
+    </Entity>
+
+    <!-- a ready-made actor entity -->
+    <Entity type="Player" cppclass="Entity">    
+        <Property type="GraphicsFeature::InputProperty" />
+        <Property type="GraphicsFeature::ChaseCameraProperty" />
+        <Property type="GraphicsFeature::ActorGraphicsProperty" distribute="true"/>
+        <Property type="GraphicsFeature::AnimationControlProperty"distribute="true"/>
+        <Property type="PhysicsFeature::ActorPhysicsProperty" distribute="true"/>
+        <Property type="Tools::DistributeMotionProperty" distribute="true"/>
+    </Entity> 
+    
+    <!-- a simple trigger entity -->
+    <Entity type="Trigger" cppclass="Entity">
+        <Property type="PhysicsFeature::TriggerProperty"/>
+    </Entity>
+
+    <!-- a stateobject entity -->
+    <Entity type="StateObject" cppclass="Entity">
+      <Property type="StateObjectFeature::StateGraphicsProperty"/>
+      <!--<Property type="StateObjectFeature::StateProperty"/>-->
+    </Entity>
+  
+</BluePrints>

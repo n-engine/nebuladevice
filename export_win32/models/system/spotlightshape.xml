@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Nebula3Model version="1">
+    <Model className="Models::Model" name="system/spotlightshape">
+        <ModelNode className="Models::TransformNode" name="model">
+            <!--LocalBox-->
+            <LBOX>
+                <f4>0.000000,0.000000,-0.500000,1.000000</f4>
+                <f4>1.000000,1.000000,0.500000,0.000000</f4>
+            </LBOX>
+            <ModelNode className="Models::ShapeNode" name="static_0_0">
+                <!--LocalBox-->
+                <LBOX>
+                    <f4>0.000000,0.000000,-0.500000,1.000000</f4>
+                    <f4>1.000000,1.000000,0.500000,0.000000</f4>
+                </LBOX>
+                <!--ShaderTexture-->
+                <STXT>
+                    <s>DiffMap0</s>
+                    <s>tex:system/alpha_2x2</s>
+                </STXT>
+                <!--ShaderFloat-->
+                <SFLT>
+                    <s>Intensity0</s>
+                    <f>0.000000</f>
+                </SFLT>
+                <!--Shader-->
+                <SHDR>
+                    <s>shd:unlit</s>
+                </SHDR>
+                <!--ModelNodeType-->
+                <MNTP>
+                    <s>UnlitAlpha</s>
+                </MNTP>
+                <!--Mesh-->
+                <MESH>
+                    <s>msh:system/spotlightshape_s_0.nvx2</s>
+                </MESH>
+                <!--PrimitiveGroupIndex-->
+                <PGRI>
+                    <i>0</i>
+                </PGRI>
+            </ModelNode>
+        </ModelNode>
+    </Model>
+</Nebula3Model>

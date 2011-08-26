@@ -1,0 +1,5 @@
+<Physics>
+    <Composite name="default" type="standard" numBodies="0" numJoints="0" numMeshes="1">
+        <MeshShape file="meshes:examples/ground_c_0.nvx2" mat="Soil" meshGroup="0" />
+    </Composite>
+</Physics>

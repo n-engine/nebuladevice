@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TextureStreaming>
+    <!--Nebula3 Texture-Contentstreaming -- (C) 2010 Radon Labs GmbH-->
+    <Pool Type="1" Width="256" Height="256" Depth="1" MipLevels="9" PixelFormat="DXT3" Size="87536" Slots="18" PoolID="DXT32562569" />
+    <Pool Type="1" Width="256" Height="256" Depth="1" MipLevels="9" PixelFormat="DXT5" Size="87536" Slots="7" PoolID="DXT52562569" />
+    <Pool Type="1" Width="256" Height="256" Depth="1" MipLevels="9" PixelFormat="DXT1" Size="43832" Slots="8" PoolID="DXT12562569" />
+    <Pool Type="3" Width="256" Height="256" Depth="1" MipLevels="9" PixelFormat="DXT1" Size="262352" Slots="1" PoolID="DXT12562569" />
+    <Pool Type="1" Width="128" Height="4" Depth="1" MipLevels="8" PixelFormat="DXT1" Size="648" Slots="1" PoolID="DXT112848" />
+    <Pool Type="1" Width="128" Height="128" Depth="1" MipLevels="8" PixelFormat="DXT1" Size="11064" Slots="1" PoolID="DXT11281288" />
+    <Pool Type="1" Width="512" Height="64" Depth="1" MipLevels="10" PixelFormat="DXT3" Size="43920" Slots="1" PoolID="DXT35126410" />
+    <Pool Type="1" Width="512" Height="512" Depth="1" MipLevels="10" PixelFormat="DXT1" Size="174904" Slots="15" PoolID="DXT151251210" />
+    <Pool Type="1" Width="512" Height="512" Depth="1" MipLevels="10" PixelFormat="DXT5" Size="349680" Slots="5" PoolID="DXT551251210" />
+    <Pool Type="1" Width="64" Height="256" Depth="1" MipLevels="9" PixelFormat="DXT3" Size="22032" Slots="1" PoolID="DXT3642569" />
+    <Pool Type="1" Width="512" Height="512" Depth="1" MipLevels="10" PixelFormat="DXT3" Size="349680" Slots="2" PoolID="DXT351251210" />
+    <Pool Type="1" Width="2048" Height="2048" Depth="1" MipLevels="12" PixelFormat="DXT5" Size="5592560" Slots="2" PoolID="DXT52048204812" />
+    <Pool Type="1" Width="2048" Height="2048" Depth="1" MipLevels="12" PixelFormat="DXT3" Size="5592560" Slots="1" PoolID="DXT32048204812" />
+    <Pool Type="1" Width="1024" Height="1024" Depth="1" MipLevels="11" PixelFormat="DXT3" Size="1398256" Slots="1" PoolID="DXT31024102411" />
+    <Pool Type="1" Width="1024" Height="1024" Depth="1" MipLevels="11" PixelFormat="DXT5" Size="1398256" Slots="1" PoolID="DXT51024102411" />
+    <Pool Type="1" Width="1024" Height="1024" Depth="1" MipLevels="11" PixelFormat="DXT1" Size="699192" Slots="2" PoolID="DXT11024102411" />
+    <Pool Type="1" Width="2048" Height="512" Depth="1" MipLevels="12" PixelFormat="DXT1" Size="699208" Slots="1" PoolID="DXT1204851212" />
+    <Pool Type="1" Width="8" Height="8" Depth="1" MipLevels="4" PixelFormat="DXT3" Size="240" Slots="2" PoolID="DXT3884" />
+    <Pool Type="1" Width="256" Height="256" Depth="1" MipLevels="9" PixelFormat="A8R8G8B8" Size="349652" Slots="2" PoolID="A8R8G8B82562569" />
+    <Pool Type="1" Width="1024" Height="512" Depth="1" MipLevels="11" PixelFormat="DXT3" Size="699216" Slots="1" PoolID="DXT3102451211" />
+    <Pool Type="1" Width="128" Height="128" Depth="1" MipLevels="8" PixelFormat="DXT3" Size="22000" Slots="3" PoolID="DXT31281288" />
+    <Pool Type="1" Width="64" Height="64" Depth="1" MipLevels="7" PixelFormat="DXT1" Size="2872" Slots="2" PoolID="DXT164647" />
+    <Pool Type="1" Width="32" Height="32" Depth="1" MipLevels="6" PixelFormat="DXT5" Size="1520" Slots="1" PoolID="DXT532326" />
+    <Pool Type="1" Width="4" Height="4" Depth="1" MipLevels="3" PixelFormat="DXT3" Size="176" Slots="2" PoolID="DXT3443" />
+    <Pool Type="1" Width="64" Height="64" Depth="1" MipLevels="7" PixelFormat="A8R8G8B8" Size="21972" Slots="4" PoolID="A8R8G8B864647" />
+    <Pool Type="1" Width="4" Height="4" Depth="1" MipLevels="3" PixelFormat="DXT5" Size="176" Slots="1" PoolID="DXT5443" />
+    <Pool Type="1" Width="16" Height="16" Depth="1" MipLevels="5" PixelFormat="DXT3" Size="496" Slots="1" PoolID="DXT316165" />
+    <Pool Type="1" Width="4" Height="4" Depth="1" MipLevels="3" PixelFormat="DXT1" Size="152" Slots="1" PoolID="DXT1443" />
+    <Pool Type="1" Width="32" Height="32" Depth="1" MipLevels="6" PixelFormat="DXT3" Size="1520" Slots="1" PoolID="DXT332326" />
+    <Pool Type="1" Width="2048" Height="2048" Depth="1" MipLevels="12" PixelFormat="DXT1" Size="2796344" Slots="1" PoolID="DXT12048204812" />
+</TextureStreaming>

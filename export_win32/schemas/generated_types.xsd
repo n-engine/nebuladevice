@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:simpleType name="level">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="testlevel" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Template_AnimEventCamShake">
+        <xs:restriction base="xs:string" />
+    </xs:simpleType>
+    <xs:simpleType name="Template_AnimEventEffects">
+        <xs:restriction base="xs:string" />
+    </xs:simpleType>
+    <xs:simpleType name="Template_AnimEventSound">
+        <xs:restriction base="xs:string" />
+    </xs:simpleType>
+    <xs:simpleType name="Template_AnimEventTiming">
+        <xs:restriction base="xs:string" />
+    </xs:simpleType>
+    <xs:simpleType name="Template_AnimEventVibration">
+        <xs:restriction base="xs:string" />
+    </xs:simpleType>
+    <xs:simpleType name="Template_Camera">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Camera" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Camera">
+        <xs:restriction base="xs:string" />
+    </xs:simpleType>
+    <xs:simpleType name="Template_ParticleSystem">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="fire" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="ParticleSystem">
+        <xs:restriction base="xs:string" />
+    </xs:simpleType>
+    <xs:simpleType name="Template_Player">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="mensch" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Player">
+        <xs:restriction base="xs:string" />
+    </xs:simpleType>
+    <xs:simpleType name="Template_RemoteCamera">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="RemoteCamera" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="RemoteCamera">
+        <xs:restriction base="xs:string" />
+    </xs:simpleType>
+    <xs:simpleType name="Template_Simple">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="box" />
+            <xs:enumeration value="cylinder" />
+            <xs:enumeration value="small_heavy_sphere" />
+            <xs:enumeration value="sphere" />
+            <xs:enumeration value="tiger" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Simple">
+        <xs:restriction base="xs:string" />
+    </xs:simpleType>
+    <xs:simpleType name="Template_StateObject">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="StateObject" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="StateObject">
+        <xs:restriction base="xs:string" />
+    </xs:simpleType>
+    <xs:simpleType name="Template_Trigger">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="DefaultTriggerBox" />
+            <xs:enumeration value="DefaultTriggerSphere" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Trigger">
+        <xs:restriction base="xs:string" />
+    </xs:simpleType>
+</xs:schema>

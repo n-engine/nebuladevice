@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Nebula3Model version="1">
+    <Model className="Models::Model" name="system/pointlightshape">
+        <ModelNode className="Models::TransformNode" name="model">
+            <!--LocalBox-->
+            <LBOX>
+                <f4>0.034413,0.000000,0.000000,1.000000</f4>
+                <f4>1.106854,1.200000,1.123930,0.000000</f4>
+            </LBOX>
+            <ModelNode className="Models::ShapeNode" name="static_0_0">
+                <!--LocalBox-->
+                <LBOX>
+                    <f4>0.034413,0.000000,0.000000,1.000000</f4>
+                    <f4>1.106854,1.200000,1.123930,0.000000</f4>
+                </LBOX>
+                <!--ShaderTexture-->
+                <STXT>
+                    <s>DiffMap0</s>
+                    <s>tex:system/white</s>
+                </STXT>
+                <!--ShaderTexture-->
+                <STXT>
+                    <s>BumpMap0</s>
+                    <s>tex:system/nobump</s>
+                </STXT>
+                <!--ShaderVector-->
+                <SVEC>
+                    <s>MatDiffuse</s>
+                    <f4>1.000000,1.000000,1.000000,1.000000</f4>
+                </SVEC>
+                <!--ShaderVector-->
+                <SVEC>
+                    <s>MatSpecular</s>
+                    <f4>0.000000,0.000000,0.000000,0.000000</f4>
+                </SVEC>
+                <!--ShaderVector-->
+                <SVEC>
+                    <s>MatAmbient</s>
+                    <f4>0.100000,0.100000,0.100000,0.100000</f4>
+                </SVEC>
+                <!--ShaderFloat-->
+                <SFLT>
+                    <s>MatSpecularPower</s>
+                    <f>64.000000</f>
+                </SFLT>
+                <!--Shader-->
+                <SHDR>
+                    <s>shd:static</s>
+                </SHDR>
+                <!--ModelNodeType-->
+                <MNTP>
+                    <s>Solid</s>
+                </MNTP>
+                <!--Mesh-->
+                <MESH>
+                    <s>msh:system/pointlightshape_s_0.nvx2</s>
+                </MESH>
+                <!--PrimitiveGroupIndex-->
+                <PGRI>
+                    <i>0</i>
+                </PGRI>
+            </ModelNode>
+        </ModelNode>
+    </Model>
+</Nebula3Model>

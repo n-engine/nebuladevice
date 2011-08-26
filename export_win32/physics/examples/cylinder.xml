@@ -1,0 +1,7 @@
+<Physics>
+    <Composite name="default" type="standard" numBodies="1" numJoints="0" numMeshes="0">
+        <RigidBody name="pCylinder1Body" pos="0.000 0.000 0.000" rot="0.0000 0.0000 0.0000 1.0000" model="model/pCylinder1" numShapes="1">
+            <CapsuleShape pos="0.000 0.000 0.000" rot="0.0000 0.0000 0.0000 1.0000" radius="1.023" length="4.093" mat="Wood" />
+        </RigidBody>
+    </Composite>
+</Physics>

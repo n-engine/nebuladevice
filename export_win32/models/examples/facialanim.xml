@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Nebula3Model version="1">
+    <Model className="Models::Model" name="examples/facialanim">
+        <ModelNode className="Models::TransformNode" name="model">
+            <!--LocalBox-->
+            <LBOX>
+                <f4>0.000105,0.346766,0.070180,1.000000</f4>
+                <f4>0.133900,0.153782,0.140821,0.000000</f4>
+            </LBOX>
+            <!--RotatePivot-->
+            <RPIV>
+                <f4>0.000070,-0.004358,0.092451,1.000000</f4>
+            </RPIV>
+            <!--ScalePivot-->
+            <SPIV>
+                <f4>0.000070,-0.004358,0.092451,1.000000</f4>
+            </SPIV>
+        </ModelNode>
+    </Model>
+</Nebula3Model>
